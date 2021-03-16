@@ -6,11 +6,11 @@ export default function Ohm() {
   return (
     <div>
       <Heading>Willkommen</Heading>
-      <p>Nimm dir 60 Sekunden Zeit.</p>
+      <p>Nimm dir 30 Sekunden Zeit.</p>
       <p>Frag dich: Wie geht es mir?</p>
       <p>Bereit?</p>
       <button>START</button>
-      <Timer />
+      <Timer seconds="30" />
     </div>
   );
 }
