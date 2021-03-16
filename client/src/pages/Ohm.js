@@ -1,3 +1,6 @@
+import React from 'react';
+import Timer from '../components/Timer';
+
 export default function Ohm() {
   return (
     <div>
@@ -6,7 +9,7 @@ export default function Ohm() {
       <p>Frag dich: Wie geht es mir?</p>
       <p>Bereit?</p>
       <button>START</button>
-      <p>TIMER...</p>
+      <Timer />
     </div>
   );
 }
