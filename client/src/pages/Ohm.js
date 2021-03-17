@@ -1,4 +1,3 @@
-import React from 'react';
 import Timer from '../components/Timer';
 import styled from 'styled-components';
 
@@ -9,8 +8,7 @@ export default function Ohm() {
       <p>Nimm dir 30 Sekunden Zeit.</p>
       <p>Frag dich: Wie geht es mir?</p>
       <p>Bereit?</p>
-      <button>START</button>
-      <Timer seconds="30" />
+      <Timer seconds={0} />
     </div>
   );
 }

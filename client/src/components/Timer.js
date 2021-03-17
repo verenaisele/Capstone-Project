@@ -8,12 +8,37 @@ import React, { useState, useEffect } from 'react';
     <div>
       <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
-    </div>
+      </div>
   );
 }
 export default Timer; */
 
-const Timer = ({ seconds }) => {
+export default function Timer({ seconds }) {
+  const [timeLeft, setTimeLeft] = useState(seconds);
+
+  //ausgelagerte Funktion für Countdown
+  const startCountdown = () => {
+    setTimeLeft(timeLeft - 1);
+  };
+
+  useEffect(() => {
+    if (!timeLeft) return;
+
+    const intervalId = setInterval(startCountdown, 1000);
+
+    return () => clearInterval(intervalId);
+  }, [timeLeft]);
+
+  return (
+    <div>
+      <h1>{timeLeft}</h1>
+      <button onClick={() => setTimeLeft(30)}>Start Countdown</button>
+    </div>
+    /*Funktion muss in OHM-Komponente übergeben werden..*/
+  );
+}
+
+/* const Timer = ({ seconds }) => {
   // initialize timeLeft with the seconds prop
   const [timeLeft, setTimeLeft] = useState(seconds);
 
@@ -38,5 +63,4 @@ const Timer = ({ seconds }) => {
       <h1>{timeLeft}</h1>
     </div>
   );
-};
-export default Timer;
+}; */
