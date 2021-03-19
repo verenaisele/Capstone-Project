@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { ReactComponent as BodyParts } from '../assets/bodyPart_overview.svg';
 
 export default function Timer({ seconds }) {
   const [timeLeft, setTimeLeft] = useState(seconds);
@@ -20,6 +21,7 @@ export default function Timer({ seconds }) {
     <div>
       <button onClick={() => setTimeLeft(10)}>Start Countdown</button>
       <h1>{timeLeft}</h1>
+      {timeLeft === 0 ? <BodyParts /> : null}
     </div>
   );
 }
