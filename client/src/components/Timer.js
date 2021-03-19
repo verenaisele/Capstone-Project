@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from 'react';
-import { ReactComponent as BodyParts } from '../assets/bodyPart_overview.svg';
+import BodyParts from '../pages/BodyParts';
 
 export default function Timer({ seconds }) {
-  const [timeLeft, setTimeLeft] = useState(seconds);
+  const [countDown, setCountDown] = useState(seconds);
 
   //Funktion für Countdown
   const startCountdown = () => {
-    setTimeLeft(timeLeft - 1);
+    setCountDown(countDown - 1);
   };
 
   useEffect(() => {
-    if (!timeLeft) return;
+    if (!countDown) return;
 
     const intervalId = setInterval(startCountdown, 1000);
 
     return () => clearInterval(intervalId);
-  }, [timeLeft]);
+  }, [countDown]);
 
   return (
     <div>
-      <button onClick={() => setTimeLeft(10)}>Start Countdown</button>
-      <h1>{timeLeft}</h1>
-      {timeLeft === 0 ? <BodyParts /> : null}
+      <button onClick={() => setCountDown(10)}>Start</button>
+      <h1>{countDown}</h1>
+      {countDown === 0 ? <BodyParts /> : null}
     </div>
   );
 }
