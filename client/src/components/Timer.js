@@ -19,7 +19,7 @@ export default function Timer({ seconds }) {
 
   return (
     <div>
-      <button onClick={() => setCountDown(10)}>Start</button>
+      <button onClick={() => setCountDown(3)}>Start</button>
       <h1>{countDown}</h1>
       {countDown === 0 ? <BodyParts /> : null}
     </div>
