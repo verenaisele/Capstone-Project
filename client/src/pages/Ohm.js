@@ -1,5 +1,6 @@
 import Timer from '../components/Timer';
 import styled from 'styled-components';
+import kugelbild from '../assets/Kugelbild_komplett.jpg';
 
 export default function Ohm() {
   return (
@@ -16,7 +17,6 @@ export default function Ohm() {
 const Heading = styled.h1``;
 
 const OhmWrapper = styled.div`
-  margin: 2rem;
-  padding: 1rem;
   text-align: center;
+  background: url(${kugelbild});
 `;
