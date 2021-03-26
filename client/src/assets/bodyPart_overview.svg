@@ -1,46 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="308" height="325" viewBox="0 0 308 325">
-  <g id="Group_36" data-name="Group 36" transform="translate(-16 -81)">
-    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(16 81)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="308" height="325" rx="27" stroke="none"/>
-      <rect x="0.5" y="0.5" width="307" height="324" rx="26.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="524" viewBox="0 0 375 524">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.67" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_51" data-name="Group 51" transform="translate(0 -227)">
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="375" height="500" rx="12" transform="translate(0 251)" fill="url(#radial-gradient)"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(110 227)" fill="#fff" stroke="#707070" stroke-linejoin="round" stroke-width="1">
+      <ellipse cx="78" cy="77.5" rx="78" ry="77.5" stroke="none"/>
+      <ellipse cx="78" cy="77.5" rx="77.5" ry="77" fill="none"/>
     </g>
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(126 88)" fill="#fff" stroke="#707070" stroke-linejoin="round" stroke-width="1">
-      <circle cx="51" cy="51" r="51" stroke="none"/>
-      <circle cx="51" cy="51" r="50.5" fill="none"/>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(78 382)" fill="#fff">
+      <path d="M 219.3056030273438 328.5 L 0.6943894624710083 328.5 L 110 1.576855659484863 L 219.3056030273438 328.5 Z" stroke="none"/>
+      <path d="M 110 3.153594970703125 L 1.38873291015625 328 L 218.6112670898438 328 L 110 3.153594970703125 M 110 0 L 220 329 L 0 329 L 110 0 Z" stroke="none" fill="#707070"/>
     </g>
-    <g id="Polygon_2" data-name="Polygon 2" transform="translate(105 190)" fill="#fff">
-      <path d="M 143.3062896728516 215.5 L 0.6937035918235779 215.5 L 71.99996948242188 1.581118702888489 L 143.3062896728516 215.5 Z" stroke="none"/>
-      <path d="M 71.99996948242188 3.162307739257812 L 1.387435913085938 215 L 142.6125640869141 215 L 71.99996948242188 3.162307739257812 M 71.99996948242188 1.52587890625e-05 L 144 216 L 0 216 L 71.99996948242188 1.52587890625e-05 Z" stroke="none" fill="#707070"/>
-    </g>
-    <line id="Line_3" data-name="Line 3" x1="31" y2="59" transform="translate(126 251.5)" fill="none" stroke="#707070" stroke-width="1"/>
-    <line id="Line_4" data-name="Line 4" x2="33" y2="59" transform="translate(197.5 253.5)" fill="none" stroke="#707070" stroke-width="1"/>
-    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(120 306)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(224 306)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(165 184)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(191 123)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(185 224)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(139 277)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
-    <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(126 102)" fill="red" stroke="#707070" stroke-width="1">
-      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
-      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
-    </g>
+    <path id="Path_1" data-name="Path 1" d="M1109.553,475.969l61.894,52.505-61.894,42.736" transform="translate(-891.098)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_2" data-name="Path 2" d="M1170.349,475.969l-60.8,68.54,33.452,40.7" transform="translate(-1008.951 -14)" fill="none" stroke="#707070" stroke-width="1"/>
   </g>
 </svg>

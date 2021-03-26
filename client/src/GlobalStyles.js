@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import kugelbild from './assets/Kugelbild_komplett.jpg';
 
 export default createGlobalStyle`
 :root {
@@ -48,6 +49,10 @@ body {
 body, h1, h2, h3, p {
   margin: 0;
 }
+body {
+  background: url(${kugelbild});
+}
+
 ul[class],
 ol[class] {
   list-style: none;
