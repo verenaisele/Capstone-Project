@@ -1,3 +1,13 @@
 export default function ExercisesCategory() {
-  return <div>All exercises for one category</div>;
+  return (
+    <div>
+      <div>Exercise Category</div>
+    </div>
+  );
 }
+
+/* {exercises
+.filter((exercise) => exercise.category === 'Augen')
+.map((exercise) => (
+  <p>{exercise}</p>
+))} */
