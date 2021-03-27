@@ -20,6 +20,7 @@ export default createGlobalStyle`
   --fs-500: 1.375rem;
   --fs-600: 1.75rem;
   --fs-900: 2.125rem;
+  --fs-950: 2.5rem; //h1 auf Startseite
 }
 
 *,
