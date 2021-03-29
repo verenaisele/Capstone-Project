@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BodyParts from '../pages/BodyParts';
 
-export default function Timer({ seconds }) {
+export default function Timer({ seconds, onTimerExpired }) {
   const [countDown, setCountDown] = useState(seconds);
 
   //Funktion für Countdown
@@ -10,7 +10,10 @@ export default function Timer({ seconds }) {
   };
 
   useEffect(() => {
-    if (!countDown) return;
+    if (!countDown) {
+      countDown === 0 && onTimerExpired(true);
+      return;
+    }
 
     const intervalId = setInterval(startCountdown, 1000);
 
@@ -21,7 +24,6 @@ export default function Timer({ seconds }) {
     <div>
       <button onClick={() => setCountDown(3)}>Start</button>
       <h1>{countDown}</h1>
-      {countDown === 0 ? <BodyParts /> : null}
     </div>
   );
 }

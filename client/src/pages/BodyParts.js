@@ -4,7 +4,7 @@ import { ReactComponent as Mark } from '../assets/Mark.svg';
 import background_pages from '../assets/background_pages.svg';
 import ExercisesCategory from '../components/ExercisesCategory';
 
-import { Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function BodyParts() {
   return (
@@ -15,7 +15,7 @@ export default function BodyParts() {
       </p>
       <BodyParts_overview />
       <div className="Augen">
-        <Link to="/exercisesCategory">
+        <Link to="/exercisesCategory/augen">
           <Mark />
         </Link>
         <p>Augen</p>
@@ -34,15 +34,6 @@ export default function BodyParts() {
         </Link>
         <p>Rücken</p>
       </div>
-
-      <Switch>
-        <Route exact path="/">
-          <h3>TEST</h3>
-        </Route>
-        <Route path="/exercisesCategory">
-          <ExercisesCategory />
-        </Route>
-      </Switch>
     </BodypartsWrapper>
   );
 }

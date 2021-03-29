@@ -2,7 +2,7 @@ import Timer from '../components/Timer';
 import styled from 'styled-components';
 import Ohm_background from '../assets/Ohm_background.svg';
 
-export default function Ohm() {
+export default function Ohm({ onTimerExpired }) {
   return (
     <OhmWrapper>
       <section>
@@ -12,7 +12,7 @@ export default function Ohm() {
         <p>Bereit?</p>
       </section>
       <div>
-        <Timer seconds={''} />
+        <Timer onTimerExpired={onTimerExpired} seconds={''} />
       </div>
     </OhmWrapper>
   );
