@@ -1,7 +1,10 @@
-export default function ExercisesCategory() {
+export default function ExercisesCategory({ exercises }) {
   return (
     <div>
-      <div>Exercise Category</div>
+      <h1>Exercise Category</h1>
+      {exercises.map((exercise) => (
+        <p>{exercise.title}</p>
+      ))}
     </div>
   );
 }

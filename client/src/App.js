@@ -19,6 +19,7 @@ function App() {
   return (
     <div>
       <Ohm />
+      {exercises && <ExercisesCategory exercises={exercises} />}
     </div>
   );
 }

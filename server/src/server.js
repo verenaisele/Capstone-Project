@@ -8,8 +8,9 @@ import exerciseRoutes from './routes/exerciseRoutes.js';
 dotenv.config();
 
 const server = express();
-server.use(bodyParser.json());
+server.use(express.json());
 server.use(cors());
+server.use(bodyParser.json());
 
 const connectionString = process.env.ATLAS_URI;
 
