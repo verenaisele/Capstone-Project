@@ -13,7 +13,9 @@ export default function ExerciseCard({ exercises }) {
       <h1>Exercise CARD</h1>
       <p>{findExercise.titel}</p>
       <p>{findExercise.description}</p>
-      <img src={findExercise.imageURL} />
+      {findExercise.imageURL.map((img) => {
+        return <img src={img} />;
+      })}
     </div>
   );
 }

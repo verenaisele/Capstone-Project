@@ -3,18 +3,6 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 export default function ExercisesCategory({ exercises }) {
-  const [categoryExercise, setcategoryExercise] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:4000/exercises/')
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setcategoryExercise(data);
-      })
-      .catch((err) => console.log('Error 400'));
-  }, []);
-
   const { category } = useParams();
 
   const filteredExercises = category
@@ -25,7 +13,7 @@ export default function ExercisesCategory({ exercises }) {
     <div>
       <h1>Exercise Category</h1>
       {filteredExercises.map((exercise) => (
-        <Link to={'/exercisesCategory/:category/' + exercise._id}>
+        <Link to={'/exercisesCategory/' + category + '/' + exercise._id}>
           <p>{exercise.titel}</p>
         </Link>
       ))}
