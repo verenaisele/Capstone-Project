@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Ohm from './pages/Ohm';
 import ExercisesCategory from './components/ExercisesCategory';
+import ExerciseCard from './components/ExerciseCard';
 import BodyParts from './pages/BodyParts';
 import { Route, Switch } from 'react-router-dom';
 
@@ -23,10 +24,15 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/exercisesCategory">
+          {exercises && (
+            <ExercisesCategory key={exercises.id} exercises={exercises} />
+          )}
+        </Route>
+        <Route exact path="/exercisesCategory/:category">
           {exercises && <ExercisesCategory exercises={exercises} />}
         </Route>
-        <Route path="/exercisesCategory/:category">
-          {exercises && <ExercisesCategory exercises={exercises} />}
+        <Route path="/exercisesCategory/:category/:id">
+          {exercises && <ExerciseCard exercises={exercises} />}
         </Route>
         <Route exact path="/">
           {timerExpired ? (
