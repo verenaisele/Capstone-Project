@@ -5,10 +5,10 @@ import BodyParts from './pages/BodyParts';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
-  //Verknüpfung back and front
   const [exercises, setExercises] = useState([]);
   const [timerExpired, setTimerExpired] = useState(false);
 
+  //Verknüpfung back and front
   useEffect(() => {
     fetch('http://localhost:4000/exercises')
       .then((res) => res.json())
@@ -39,6 +39,5 @@ function App() {
     </div>
   );
 }
-// {/* {exercises && <ExercisesCategory exercises={exercises} />} */}
 
 export default App;

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import BodyParts from '../pages/BodyParts';
 
 export default function Timer({ seconds, onTimerExpired }) {
   const [countDown, setCountDown] = useState(seconds);

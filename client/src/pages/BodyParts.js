@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { ReactComponent as BodyParts_overview } from '../assets/Bodypart_overview.svg';
 import { ReactComponent as Mark } from '../assets/Mark.svg';
 import background_pages from '../assets/background_pages.svg';
-import ExercisesCategory from '../components/ExercisesCategory';
 
 import { Link } from 'react-router-dom';
 
@@ -22,14 +21,14 @@ export default function BodyParts() {
       </div>
 
       <div className="Nacken">
-        <Link to="/exercisesCategory">
+        <Link to="/exercisesCategory/nacken">
           <Mark />
         </Link>
         <p>Nacken</p>
       </div>
 
       <div className="Rücken">
-        <Link to="/exercisesCategory">
+        <Link to="/exercisesCategory/rücken">
           <Mark />
         </Link>
         <p>Rücken</p>
