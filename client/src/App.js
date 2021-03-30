@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:4000/exercises')
       .then((res) => res.json())
-      .then((data) => {
+      .then((exerciseData) => {
         console.log(data);
         setExercises(data);
       })
