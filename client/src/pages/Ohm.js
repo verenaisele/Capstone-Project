@@ -1,6 +1,6 @@
 import Timer from '../components/Timer';
 import styled from 'styled-components';
-import Ohm_background from '../assets/Ohm_background.svg';
+import Ohm_background from '../assets/backgroundPages.svg';
 
 export default function Ohm({ onTimerExpired }) {
   return (

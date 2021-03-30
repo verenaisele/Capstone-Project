@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import BodyParts from './pages/BodyParts';
 import Ohm from './pages/Ohm';
-import ExercisesCategory from './components/ExercisesCategory';
 import ExerciseCard from './components/ExerciseCard';
-import BodyParts from './pages/BodyParts';
-import { Route, Switch } from 'react-router-dom';
+import ExercisesCategory from './components/ExercisesCategory';
 
 function App() {
   const [exercises, setExercises] = useState([]);
