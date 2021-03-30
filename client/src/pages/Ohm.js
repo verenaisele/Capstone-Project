@@ -1,6 +1,6 @@
 import Timer from '../components/Timer';
 import styled from 'styled-components';
-import Ohm_background from '../assets/backgroundPages.svg';
+import OhmBackground from '../assets/OhmBackground.svg';
 
 export default function Ohm({ onTimerExpired }) {
   return (
@@ -24,11 +24,13 @@ const Heading = styled.h1`
 `;
 
 const OhmWrapper = styled.div`
-  background: url(${Ohm_background});
+  background-image: url(${OhmBackground});
+  background-repeat: no-repeat;
   color: var(--black);
   display: grid;
   grid-template: 100px 200px 200px / 375px;
   height: 844px;
+  width: 390;
   text-align: center;
 
   section {

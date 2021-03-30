@@ -9,13 +9,11 @@ function App() {
   const [exercises, setExercises] = useState([]);
   const [timerExpired, setTimerExpired] = useState(false);
 
-  //Verknüpfung back and front
   useEffect(() => {
     fetch('http://localhost:4000/exercises')
       .then((res) => res.json())
       .then((exerciseData) => {
-        console.log(data);
-        setExercises(data);
+        setExercises(exerciseData);
       })
       .catch((err) => console.log(err.message));
   }, []);

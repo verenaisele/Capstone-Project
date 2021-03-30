@@ -1,8 +1,8 @@
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 
 export default function ExercisesCategory({ exercises }) {
+  console.log(exercises);
   const { category } = useParams();
 
   const filteredExercises = category

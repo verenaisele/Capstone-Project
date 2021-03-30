@@ -38,6 +38,7 @@ export default function BodyParts() {
 
 const BodypartsWrapper = styled.section`
   background: url(${background_pages});
+  background-repeat: no-repeat;
   color: var(--black);
   height: 844px;
 
