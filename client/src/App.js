@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import BodyParts from './pages/BodyParts';
 import Ohm from './pages/Ohm';
 import ExercisesCategory from './components/ExercisesCategory';
 import ExerciseCard from './components/ExerciseCard';
@@ -13,11 +15,11 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:4000/exercises')
       .then((res) => res.json())
-      .then((data) => {
+      .then((exerciseData) => {
         console.log(data);
         setExercises(data);
       })
-      .catch((err) => console.log('Error 400'));
+      .catch((err) => console.log(err.message));
   }, []);
 
   return (
