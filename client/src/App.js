@@ -16,7 +16,7 @@ function App() {
         console.log(data);
         setExercises(data);
       })
-      .catch((err) => console.log('Error 400'));
+      .catch((err) => console.log(err.message));
   }, []);
 
   return (
