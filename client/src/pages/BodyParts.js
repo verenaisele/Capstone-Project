@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as BodyParts_overview } from '../assets/Bodypart_overview.svg';
+import { ReactComponent as BodyParts_overview } from '../assets/BodyPart_overview.svg';
 import { ReactComponent as Mark } from '../assets/Mark.svg';
 import background_pages from '../assets/background_pages.svg';
 
