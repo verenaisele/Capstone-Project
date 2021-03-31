@@ -13,21 +13,21 @@ export default function BodyParts() {
       </p>
       <BodyParts_overview />
       <div className="Augen">
-        <Link to="/exercisesCategory/augen">
+        <Link to="/Uebungen_Ueberblick/augen">
           <Mark />
         </Link>
         <p>Augen</p>
       </div>
 
       <div className="Nacken">
-        <Link to="/exercisesCategory/nacken">
+        <Link to="/Uebungen_Ueberblick/nacken">
           <Mark />
         </Link>
         <p>Nacken</p>
       </div>
 
       <div className="Rücken">
-        <Link to="/exercisesCategory/rücken">
+        <Link to="/Uebungen_Ueberblick/rücken">
           <Mark />
         </Link>
         <p>Rücken</p>

@@ -21,15 +21,15 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route exact path="/exercisesCategory">
+        <Route exact path="/Uebungen_Ueberblick">
           {exercises && (
             <ExercisesCategory key={exercises.id} exercises={exercises} />
           )}
         </Route>
-        <Route exact path="/exercisesCategory/:category">
+        <Route exact path="/Uebungen_Ueberblick/:category">
           {exercises && <ExercisesCategory exercises={exercises} />}
         </Route>
-        <Route path="/exercisesCategory/:category/:id">
+        <Route path="/Uebungen_Ueberblick/:category/:id">
           {exercises && <ExerciseCard exercises={exercises} />}
         </Route>
         <Route exact path="/">

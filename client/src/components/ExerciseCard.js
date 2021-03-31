@@ -1,13 +1,12 @@
 import { useParams } from 'react-router';
 
 export default function ExerciseCard({ exercises }) {
-  const { category, id } = useParams();
+  const { id } = useParams();
 
   const findExercise = exercises.find((exercise) => {
     return exercise._id === id;
   });
 
-  console.log(findExercise, 111);
   return (
     <div>
       <h1>Exercise CARD</h1>
