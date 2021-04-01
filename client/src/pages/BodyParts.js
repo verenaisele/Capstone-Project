@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { ReactComponent as BodyParts_overview } from '../assets/bodyPartOverview.svg';
+import { ReactComponent as BodyPartOverview } from '../assets/bodyPartOverview.svg';
 import { ReactComponent as Mark } from '../assets/Mark.svg';
-import background_pages from '../assets/backgroundPages.svg';
+import backgroundPages from '../assets/backgroundPages.svg';
 
 export default function BodyParts() {
   return (
@@ -11,7 +11,7 @@ export default function BodyParts() {
       <p>
         welchem Bereich deines Körpers möchtest du dich heute besonders widmen?
       </p>
-      <BodyParts_overview />
+      <BodyPartOverview />
       <div className="Augen">
         <Link to="/Uebungen_Ueberblick/augen">
           <Mark />
@@ -37,7 +37,7 @@ export default function BodyParts() {
 }
 
 const BodypartsWrapper = styled.section`
-  background: url(${background_pages});
+  background: url(${backgroundPages});
   background-repeat: no-repeat;
   color: var(--black);
   height: 844px;
