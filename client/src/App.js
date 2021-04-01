@@ -15,7 +15,7 @@ function App() {
       .then((exerciseData) => {
         setExercises(exerciseData);
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => console.error(err.message));
   }, []);
 
   return (
