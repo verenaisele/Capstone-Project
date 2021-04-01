@@ -8,11 +8,8 @@ export default createGlobalStyle`
   --secondary: #FDE2C3;  /*Beige Hintergrund*/
   --secondary-light: #FDBF72;
   --white: #FFFFFF;
-  --black: #1F0404;  /*Schrift dunkel */
+  --black: #1F0404;  /* dunkelbraun */
 
-  
-  --ff-sans: sans-serif;
-  --ff-serif: serif;
   
   --fs-200: 0.75rem;
   --fs-300: 1rem;
@@ -31,28 +28,23 @@ export default createGlobalStyle`
 
 h1, h2, h3 {
   line-height: 1.2;
-}
-
-body, h1, h2, h3, p {
   margin: 0;
 }
 
-body {
-  line-height: 1.5;
-  font-size: 1.25rem; /* var(--fs-400) */
-}
-
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
-body, h1, h2, h3, p {
+p {
   margin: 0;
 }
+
 body {
   background: url(${kugelbild});
+  
+  font-family: sans-serif;
+  font-size: 1.25rem; /* var(--fs-400) */
+  line-height: 1.5;
+
+  margin: 0;
 }
+
 
 ul[class],
 ol[class] {

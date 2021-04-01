@@ -9,8 +9,6 @@ const exerciseSchema = new Schema({
   imageURL: [],
 });
 
-//const ist das Model
-//'' das ist der Datenbankname
 const Exercise = mongoose.model('exercise', exerciseSchema);
 
 export default Exercise;
