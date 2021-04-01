@@ -30,7 +30,7 @@ const OhmWrapper = styled.div`
   display: grid;
   grid-template: 100px 200px 200px / 375px;
   height: 844px;
-  width: 390;
+  width: 390px;
   text-align: center;
 
   section {
