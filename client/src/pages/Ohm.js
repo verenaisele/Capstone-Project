@@ -20,7 +20,7 @@ export default function Ohm({ onTimerExpired }) {
 
 const Heading = styled.h1`
   font-size: var(--fs-950);
-  padding-bottom: 1.5rem;
+  padding-bottom: 3rem;
 `;
 
 const OhmWrapper = styled.div`
@@ -28,7 +28,7 @@ const OhmWrapper = styled.div`
   background-repeat: no-repeat;
   color: var(--black);
   display: grid;
-  grid-template: 100px 200px 200px / 375px;
+  grid-template: 75px 250px 100px 100px 100px/ 375px;
   height: 844px;
   width: 390px;
   text-align: center;
