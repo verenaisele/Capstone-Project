@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="349" height="235.5" viewBox="0 0 349 235.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.429" gradientTransform="translate(0 -0.227) scale(1 1.454)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+    <filter id="Rectangle_35" x="0" y="11.5" width="349" height="224" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#260606" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_104" data-name="Group 104" transform="translate(-2479.5 970)">
+    <g transform="matrix(1, 0, 0, 1, 2479.5, -970)" filter="url(#Rectangle_35)">
+      <rect id="Rectangle_35-2" data-name="Rectangle 35" width="304" height="179" rx="12" transform="translate(18.5 26)" opacity="0.784" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_86" data-name="Group 86" transform="translate(470 43)">
+      <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M17.376,13.86l-5.8-5.8a1.1,1.1,0,0,1,1.552-1.548l6.575,6.57a1.094,1.094,0,0,1,.032,1.511l-6.6,6.616a1.1,1.1,0,0,1-1.552-1.548Z" transform="translate(2157.481 -964.362)" fill="#fff"/>
+      <g id="Group_85" data-name="Group 85">
+        <text id="min._6_m" data-name="min. 6 m" transform="translate(2116 -961)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">min. 6 m</tspan></text>
+        <line id="Line_24" data-name="Line 24" x1="57" transform="translate(2117.847 -950.5)" fill="none" stroke="#fff" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Group_77" data-name="Group 77" transform="translate(362 3)">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(2170 -913)" fill="#fff">
+        <path d="M 51.37188720703125 112.5 L 0.6281118988990784 112.5 L 26 2.229870796203613 L 51.37188720703125 112.5 Z" stroke="none"/>
+        <path d="M 26 4.459724426269531 L 1.256221771240234 112 L 50.74378204345703 112 L 26 4.459724426269531 M 26 0 L 52 113 L 0 113 L 26 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2177 -973)" fill="#fff" stroke="#707070" stroke-width="1">
+        <ellipse cx="19" cy="30" rx="19" ry="30" stroke="none"/>
+        <ellipse cx="19" cy="30" rx="18.5" ry="29.5" fill="none"/>
+      </g>
+      <g id="Group_76" data-name="Group 76" transform="translate(2180.465 -882.303)">
+        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(21.535 16.303)" fill="red" stroke="#707070" stroke-width="1">
+          <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+          <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+        </g>
+        <line id="Line_3" data-name="Line 3" x2="9.767" y2="9.767" transform="translate(0 13.256)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_4" data-name="Line 4" x1="1.395" y2="4.186" transform="translate(29.302 13.256)" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(6.535 19.303)" fill="red" stroke="#707070" stroke-width="1">
+          <ellipse cx="6" cy="6.5" rx="6" ry="6.5" stroke="none"/>
+          <ellipse cx="6" cy="6.5" rx="5.5" ry="6" fill="none"/>
+        </g>
+        <line id="Line_13" data-name="Line 13" y1="10.465" x2="11.163" transform="translate(0 4.186)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_14" data-name="Line 14" x1="8.372" y1="13.953" transform="translate(22.325)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

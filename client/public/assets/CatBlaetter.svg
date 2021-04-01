@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="163" viewBox="0 0 127 163">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.67" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_103" data-name="Group 103" transform="translate(-3869 562)">
+    <g id="Group_101" data-name="Group 101" transform="translate(-12 7)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="127" height="163" rx="12" transform="translate(3881 -569)" fill="url(#radial-gradient)"/>
+      <g id="Group_100" data-name="Group 100">
+        <line id="Line_15" data-name="Line 15" y2="28.167" transform="translate(3938.347 -456.412)" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Group_99" data-name="Group 99" transform="translate(-293 301.209)">
+          <g id="Polygon_3" data-name="Polygon 3" transform="translate(4199 -855.209)" fill="#fff">
+            <path d="M 64.00088500976562 97.08829498291016 L 0.6924903988838196 97.08829498291016 L 32.3466796875 1.589200377464294 L 64.00088500976562 97.08829498291016 Z" stroke="none"/>
+            <path d="M 32.3466796875 3.178352355957031 L 1.384960174560547 96.58828735351562 L 63.30839920043945 96.58828735351562 L 32.3466796875 3.178352355957031 M 32.3466796875 0 L 64.693359375 97.58828735351562 L 0 97.58828735351562 L 32.3466796875 0 Z" stroke="none" fill="#707070"/>
+          </g>
+          <g id="Group_80" data-name="Group 80" transform="translate(4215.448 -845.341)">
+            <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(0 25.219)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="7.675" height="8.772" stroke="none"/>
+              <rect x="0.125" y="0.125" width="7.425" height="8.522" fill="none"/>
+            </g>
+            <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(13.158 7.675)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="8.772" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="8.522" fill="none"/>
+            </g>
+            <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(9.868 20.833)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="8.772" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="8.522" fill="none"/>
+            </g>
+            <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(4.386 10.965)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="9.868" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="9.618" fill="none"/>
+            </g>
+            <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(7.675 0)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="7.675" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="7.425" fill="none"/>
+            </g>
+            <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(19.737 16.447)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="8.772" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="8.522" fill="none"/>
+            </g>
+            <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(19.737 29.605)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+              <rect width="6.579" height="7.675" stroke="none"/>
+              <rect x="0.125" y="0.125" width="6.329" height="7.425" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_102" data-name="Group 102" transform="translate(-287 337)">
+      <g id="Polygon_4" data-name="Polygon 4" transform="translate(4207 -847.209)" fill="#fff">
+        <path d="M 63.18522644042969 62.5 L 0.8147684335708618 62.5 L 31.99999809265137 1.104079008102417 L 63.18522644042969 62.5 Z" stroke="none"/>
+        <path d="M 31.99999809265137 2.208168029785156 L 1.629543304443359 62 L 62.37045288085938 62 L 31.99999809265137 2.208168029785156 M 31.99999809265137 0 L 64 63 L -3.814697265625e-06 63 L 31.99999809265137 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <line id="Line_19" data-name="Line 19" y2="28.167" transform="translate(4235.925 -784.906)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

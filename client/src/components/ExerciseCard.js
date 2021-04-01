@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 import { ReactComponent as Close } from '../assets/iconClose.svg';
 
 export default function ExerciseCard({ exercises }) {
@@ -19,8 +20,13 @@ export default function ExerciseCard({ exercises }) {
       <p>{foundExercise.titel}</p>
       <p>{foundExercise.description}</p>
       {foundExercise.imageURL.map((img) => {
-        return <img src={img} alt="details for each exercise" />;
+        return <ImgCard src={img} alt="details for each exercise" />;
       })}
     </div>
   );
 }
+
+const ImgCard = styled.img`
+  width: 25rem;
+  margin: 0 auto;
+`;
