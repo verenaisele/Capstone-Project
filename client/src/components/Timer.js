@@ -22,7 +22,7 @@ export default function Timer({ seconds, onTimerExpired }) {
 
   return (
     <TimerWrapper>
-      <button onClick={() => setCountDown(3)}>Start</button>
+      <button onClick={() => setCountDown(30)}>Start</button>
       <h1>{countDown}</h1>
     </TimerWrapper>
   );
@@ -31,7 +31,15 @@ export default function Timer({ seconds, onTimerExpired }) {
 const TimerWrapper = styled.div`
   }
   h1 {
-    margin-top: 100px;
     color: var(--white);
+  }
+  button {
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 7px;
+    font-size: var(--fs-200);
+    margin-bottom: 100px;
+
+    padding: 0.4rem 0.8rem;
   }
 `;
