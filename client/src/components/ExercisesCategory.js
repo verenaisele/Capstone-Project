@@ -9,9 +9,6 @@ export default function ExercisesCategory({ exercises }) {
     ? filterExercisesByCategory(category, exercises)
     : exercises;
 
-  //state draus machen...
-  const count = (num) => num + 1;
-
   return (
     <CategoryCard>
       <h1>{category.toUpperCase()}-Übungen</h1>
@@ -20,10 +17,11 @@ export default function ExercisesCategory({ exercises }) {
         <ExerciseWrapper>
           <img src={exercise.titelImg} alt="details for each exercise" />
           <div>
-            <h2>Übung {count(0)}</h2>
             <Link to={'/Uebungen_Ueberblick/' + category + '/' + exercise._id}>
-              <p>{exercise.titel}</p>
+              <h2>Übung</h2>
+              <h3>{exercise.titel}</h3>
             </Link>
+            <button>L</button>
           </div>
         </ExerciseWrapper>
       ))}
@@ -37,31 +35,39 @@ function filterExercisesByCategory(category, exercises) {
   );
 }
 const CategoryCard = styled.section`
-  h1 {
-    margin: 2rem 1rem 3rem 2rem;
-  }
+  margin: 2rem 1rem 3rem 1rem;
 `;
 
 const ExerciseWrapper = styled.div`
   display: flex;
-  margin: 2rem 1rem 3rem 2rem;
+  margin: 2rem 0rem 3rem 0rem;
+  color: var(--white);
+
   div {
     background: var(--black);
     border-radius: 1rem;
-    color: var(--white);
-    padding: 3rem 2rem;
+    display: grid;
+    grid-template: 0.5rem 2rem 6.5rem 2rem / 2rem 9.5rem 2.5rem;
     position: relative;
-    top: 20px;
     right: -115px;
-    width: 18rem;
-  }
-  p {
-    text-decoration: none;
-    color: var(--white);
+    top: 20px;
+    width: 14rem;
   }
 
   img {
     position: absolute;
     z-index: 40;
+  }
+  a {
+    text-decoration: none;
+    color: var(--white);
+    grid-row: 3;
+    grid-column: 2 / -1;
+  }
+  button {
+    grid-row: 2;
+    grid-column: 3;
+    height: 1.5rem;
+    width: 1rem;
   }
 `;
