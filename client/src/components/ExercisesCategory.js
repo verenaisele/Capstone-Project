@@ -2,7 +2,7 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export default function ExercisesCategory({ exercises }) {
+export default function ExercisesCategory({ exercises, onAddToFavorite }) {
   const { category } = useParams();
 
   const filteredExercises = category
@@ -21,7 +21,7 @@ export default function ExercisesCategory({ exercises }) {
               <h2>Übung</h2>
               <h3>{exercise.titel}</h3>
             </Link>
-            <button>L</button>
+            <button onClick={() => onAddToFavorite(exercise)}>L</button>
           </div>
         </ExerciseWrapper>
       ))}
