@@ -26,10 +26,29 @@ function App() {
   }, []);
 
   //exercise hinzufügen zu favorites
-  const addToFavorite = (exerciseToAdd) => {
+  /*   const addToFavorite = (exerciseToAdd) => {
     setfavoriteExercises([...favoriteExercises, exerciseToAdd]);
-  };
+  }; */
 
+  //add und ablgeich ob schon in liste
+  function addToFavorite(exerciseToAdd) {
+    const favoriteAlreadyExists = favoriteExercises.find(
+      (exercise) => exerciseToAdd._id === exercise._id
+    );
+    if (favoriteAlreadyExists) {
+      setfavoriteExercises(favoriteExercises);
+    } else {
+      setfavoriteExercises([...favoriteExercises, exerciseToAdd]);
+    }
+  }
+
+  const removeFromFavorite = (id) => {
+    const updatedFavorites = favoriteExercises.filter(
+      (exercise) => exercise._id !== id
+    );
+    setfavoriteExercises(updatedFavorites);
+  };
+  console.log(favoriteExercises);
   return (
     <div>
       <Switch>
@@ -43,6 +62,7 @@ function App() {
             <ExercisesCategory
               exercises={exercises}
               onAddToFavorite={addToFavorite}
+              favoriteExercises={favoriteExercises}
             />
           )}
         </Route>
@@ -50,7 +70,10 @@ function App() {
           {exercises && <ExerciseCard exercises={exercises} />}
         </Route>
         <Route path="/Favorites">
-          <Favorites favorites={favoriteExercises} />
+          <Favorites
+            favoriteExercises={favoriteExercises}
+            onRemoveFavorite={removeFromFavorite}
+          />
         </Route>
         <Route exact path="/">
           {timerExpired ? (

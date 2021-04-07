@@ -2,7 +2,11 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export default function ExercisesCategory({ exercises, onAddToFavorite }) {
+export default function ExercisesCategory({
+  exercises,
+  onAddToFavorite,
+  favoriteExercises,
+}) {
   const { category } = useParams();
 
   const filteredExercises = category
@@ -21,7 +25,14 @@ export default function ExercisesCategory({ exercises, onAddToFavorite }) {
               <h2>Übung</h2>
               <h3>{exercise.titel}</h3>
             </Link>
-            <button onClick={() => onAddToFavorite(exercise)}>L</button>
+            <button
+              className={
+                isFavorite(favoriteExercises, exercise) ? 'active' : ''
+              }
+              onClick={() => onAddToFavorite(exercise)}
+            >
+              L
+            </button>
           </div>
         </ExerciseWrapper>
       ))}
@@ -34,6 +45,12 @@ function filterExercisesByCategory(category, exercises) {
     (exercise) => exercise.category.toLowerCase() === category
   );
 }
+function isFavorite(favoriteExercises, exercise) {
+  return favoriteExercises.some(
+    (favoriteExercise) => favoriteExercise._id === exercise._id
+  );
+}
+
 const CategoryCard = styled.section`
   margin: 2rem 1rem 3rem 1rem;
 `;
@@ -69,5 +86,8 @@ const ExerciseWrapper = styled.div`
     grid-column: 3;
     height: 1.5rem;
     width: 1rem;
+  }
+  .active {
+    background: hotpink;
   }
 `;
