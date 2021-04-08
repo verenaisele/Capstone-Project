@@ -30,15 +30,15 @@ const OhmWrapper = styled.div`
   background-repeat: no-repeat;
   color: var(--black);
   display: grid;
-  grid-template: 75px 250px 100px 100px 100px/ 375px;
+  grid-template: 1rem 6rem 15rem 4rem 4rem 4rem/ 375px;
   height: 844px;
   width: 390px;
   text-align: center;
 
   section {
-    grid-row: 2;
+    grid-row: 3;
   }
   div {
-    grid-row: 3;
+    grid-row: 4;
   }
 `;

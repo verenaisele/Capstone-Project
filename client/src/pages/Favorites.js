@@ -2,6 +2,8 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import HeaderNav from '../components/HeaderNav';
+import { ReactComponent as Remove } from '../assets/remove.svg';
+import { ReactComponent as Enter } from '../assets/enter.svg';
 
 export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
   const { category } = useParams();
@@ -20,6 +22,8 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
                   alt="details for each exercise"
                 />
                 <section>
+                  <h2>{favoriteExercise.titel}</h2>
+
                   <Link
                     to={
                       '/Uebungen_Ueberblick/' +
@@ -28,15 +32,12 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
                       favoriteExercise._id
                     }
                   >
-                    <h2>{favoriteExercise.titel}</h2>
+                    <EnterIcon />
                   </Link>
-                  <div>
-                    <button
-                      onClick={() => onRemoveFavorite(favoriteExercise._id)}
-                    >
-                      X
-                    </button>
-                  </div>
+
+                  <RemoveIcon
+                    onClick={() => onRemoveFavorite(favoriteExercise._id)}
+                  />
                 </section>
               </FavroriteWrapper>
             ))}
@@ -57,31 +58,38 @@ const FavroriteWrapper = styled.div`
   margin: 2rem 0rem 3rem 0rem;
   color: var(--white);
 
+  img {
+    position: absolute;
+    z-index: 40;
+  }
+
   section {
     background: var(--black);
     border-radius: 1rem;
     display: grid;
-    grid-template: 2rem 6.5rem 2rem / 2rem 9.5rem 2.5rem;
+    grid-template: 1rem 4rem 2rem 3.5rem / 2rem 2rem 4rem 5rem 1rem;
     position: relative;
     right: -115px;
     top: 20px;
     width: 14rem;
   }
-
-  img {
-    position: absolute;
-    z-index: 40;
-  }
-  a {
-    text-decoration: none;
+  h2 {
     color: var(--white);
     grid-row: 2;
     grid-column: 2 / -1;
   }
-  div {
-    grid-row: 2;
+
+  a {
+    grid-row: 4;
     grid-column: 3;
-    height: 1.5rem;
-    width: 1rem;
   }
+`;
+
+const RemoveIcon = styled(Remove)`
+  fill: var(--white);
+  grid-row: 4;
+  grid-column: 4;
+`;
+const EnterIcon = styled(Enter)`
+  fill: var(--white);
 `;

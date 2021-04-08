@@ -8,28 +8,20 @@ export default function HeaderNav() {
   return (
     <Header>
       <NavWrapper>
-        <LINK activeClassName="active" className="link" exact to="/">
+        <NavLink activeClassName="active" className="link" exact to="/">
           <OhmIcon />
-        </LINK>
-        <LINK activeClassName="active" className="link" to="/Bodyparts">
+        </NavLink>
+        <NavLink activeClassName="active" className="link" to="/Bodyparts">
           <Bodyparts />
-        </LINK>
-        <LINK activeClassName="active" className="link" to="/Favorites">
+        </NavLink>
+        <NavLink activeClassName="active" className="link" to="/Favorites">
           <Favorites />
-        </LINK>
+        </NavLink>
       </NavWrapper>
     </Header>
   );
 }
 
-const LINK = styled(NavLink)`
-  cursor: pointer;
-  background-color: transparent;
-  background-image: none;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 5px;
-`;
 const OhmIcon = styled(Ohmpage)`
   //margin: 2rem;
 `;
@@ -40,7 +32,7 @@ const Header = styled.header`
   align-items: center;
   background-color: none;
   background-image: none;
-  margin: 3rem;
+  margin-top: 1rem;
 `;
 
 const NavWrapper = styled.nav`
@@ -57,6 +49,7 @@ const NavWrapper = styled.nav`
   .link:hover {
     & svg {
       transform: scale(1.25);
+      background: var(--secondary-light);
     }
   }
 
