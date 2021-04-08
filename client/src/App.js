@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import BodyParts from './pages/BodyParts';
 import Favorites from './pages/Favorites';
 import Ohm from './pages/Ohm';
 import ExerciseCard from './components/ExerciseCard';
 import ExercisesCategory from './components/ExercisesCategory';
-import HeaderNav from './components/HeaderNav';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 function App() {
@@ -48,7 +47,6 @@ function App() {
   console.log(favoriteExercises);
   return (
     <div>
-      <HeaderNav />
       <Switch>
         <Route exact path="/Uebungen_Ueberblick">
           {exercises && (
@@ -77,12 +75,12 @@ function App() {
         </Route>
 
         <Route path="/Bodyparts">
-          <BodyParts />
+          <BodyParts resetTimer={setTimerExpired} />
         </Route>
 
         <Route exact path="/">
           {timerExpired ? (
-            <BodyParts />
+            <Redirect from="/" to="/Bodyparts" />
           ) : (
             <Ohm onTimerExpired={setTimerExpired} />
           )}

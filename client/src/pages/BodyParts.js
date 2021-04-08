@@ -2,10 +2,13 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ReactComponent as BodyPartOverview } from '../assets/bodyPartOverview.svg';
 import { ReactComponent as Mark } from '../assets/Mark.svg';
+import HeaderNav from '../components/HeaderNav';
 
-export default function BodyParts() {
+export default function BodyParts({ resetTimer }) {
+  resetTimer(false);
   return (
     <BodypartsWrapper>
+      <HeaderNav />
       <section>
         <h1>Wähle...</h1>
         <p>
@@ -19,7 +22,7 @@ export default function BodyParts() {
         </div>
 
         <div className="Kopf">
-          <Link to="/Uebungen_Ueberblick/">
+          <Link to="/Uebungen_Ueberblick/kopf">
             <Mark />
           </Link>
           <p>Kopf</p>
@@ -47,14 +50,14 @@ export default function BodyParts() {
         </div>
 
         <div className="Schulter">
-          <Link to="/Uebungen_Ueberblick/">
+          <Link to="/Uebungen_Ueberblick/schulter">
             <Mark />
           </Link>
           <p>Schulter</p>
         </div>
 
         <div className="Handgelenke">
-          <Link to="/Uebungen_Ueberblick/">
+          <Link to="/Uebungen_Ueberblick/handgelenke">
             <Mark />
           </Link>
           <p>Handgelenke</p>

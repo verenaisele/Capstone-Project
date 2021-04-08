@@ -1,47 +1,51 @@
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import HeaderNav from '../components/HeaderNav';
 
 export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
   const { category } = useParams();
 
   return (
-    <FavoriteCard>
-      <h1>Merkliste</h1>
-      {favoriteExercises && favoriteExercises.length > 0 ? (
-        <p>
-          {favoriteExercises.map((favoriteExercise) => (
-            <FavroriteWrapper>
-              <img
-                src={favoriteExercise.titelImg}
-                alt="details for each exercise"
-              />
-              <section>
-                <Link
-                  to={
-                    '/Uebungen_Ueberblick/' +
-                    category +
-                    '/' +
-                    favoriteExercise._id
-                  }
-                >
-                  <h2>{favoriteExercise.titel}</h2>
-                </Link>
-                <div>
-                  <button
-                    onClick={() => onRemoveFavorite(favoriteExercise._id)}
+    <>
+      <HeaderNav />
+      <FavoriteCard>
+        <h1>Merkliste</h1>
+        {favoriteExercises && favoriteExercises.length > 0 ? (
+          <p>
+            {favoriteExercises.map((favoriteExercise) => (
+              <FavroriteWrapper>
+                <img
+                  src={favoriteExercise.titelImg}
+                  alt="details for each exercise"
+                />
+                <section>
+                  <Link
+                    to={
+                      '/Uebungen_Ueberblick/' +
+                      category +
+                      '/' +
+                      favoriteExercise._id
+                    }
                   >
-                    X
-                  </button>
-                </div>
-              </section>
-            </FavroriteWrapper>
-          ))}
-        </p>
-      ) : (
-        <h2>Bislang befinden sich noch keine Übungen in der Merkliste!</h2>
-      )}
-    </FavoriteCard>
+                    <h2>{favoriteExercise.titel}</h2>
+                  </Link>
+                  <div>
+                    <button
+                      onClick={() => onRemoveFavorite(favoriteExercise._id)}
+                    >
+                      X
+                    </button>
+                  </div>
+                </section>
+              </FavroriteWrapper>
+            ))}
+          </p>
+        ) : (
+          <h2>Bislang befinden sich noch keine Übungen in der Merkliste!</h2>
+        )}
+      </FavoriteCard>
+    </>
   );
 }
 
@@ -57,7 +61,7 @@ const FavroriteWrapper = styled.div`
     background: var(--black);
     border-radius: 1rem;
     display: grid;
-    grid-template: 0.5rem 2rem 6.5rem 2rem / 2rem 9.5rem 2.5rem;
+    grid-template: 2rem 6.5rem 2rem / 2rem 9.5rem 2.5rem;
     position: relative;
     right: -115px;
     top: 20px;
@@ -71,7 +75,7 @@ const FavroriteWrapper = styled.div`
   a {
     text-decoration: none;
     color: var(--white);
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 2 / -1;
   }
   div {

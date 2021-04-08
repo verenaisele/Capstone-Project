@@ -7,7 +7,7 @@ import { ReactComponent as Favorites } from '../assets/like.svg';
 export default function HeaderNav() {
   return (
     <Header>
-      <NavWrapper className="navigation">
+      <NavWrapper>
         <LINK activeClassName="active" className="link" exact to="/">
           <OhmIcon />
         </LINK>
@@ -35,16 +35,19 @@ const OhmIcon = styled(Ohmpage)`
 `;
 
 const Header = styled.header`
-  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
   background-image: none;
+  margin: 3rem;
 `;
 
 const NavWrapper = styled.nav`
-  .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   .link {
     margin-left: 5px;
     margin-right: 5px;
@@ -52,9 +55,9 @@ const NavWrapper = styled.nav`
   }
 
   .link:hover {
-    background: hotpink;
-    width: 30px;
-    height: 30px;
+    & svg {
+      transform: scale(1.25);
+    }
   }
 
   .active {

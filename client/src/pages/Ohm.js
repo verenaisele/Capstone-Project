@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import OhmBackground from '../assets/OhmBackground.svg';
+import ohmBackground from '../assets/ohmBackground.png';
 import Timer from '../components/Timer';
+import HeaderNav from '../components/HeaderNav';
 
 export default function Ohm({ onTimerExpired }) {
   return (
     <OhmWrapper>
+      <HeaderNav />
       <section>
         <Heading>Willkommen</Heading>
         <p>Nimm dir 30 Sekunden Zeit.</p>
@@ -24,7 +26,7 @@ const Heading = styled.h1`
 `;
 
 const OhmWrapper = styled.div`
-  background-image: url(${OhmBackground});
+  background-image: url(${ohmBackground});
   background-repeat: no-repeat;
   color: var(--black);
   display: grid;

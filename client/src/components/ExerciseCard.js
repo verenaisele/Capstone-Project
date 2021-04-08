@@ -11,51 +11,51 @@ export default function ExerciseCard({ exercises }) {
     return exercise._id === id;
   });
 
-  console.log(exercises);
-
-  /*  const foundDescription = foundExercise.description.find((item) => {
-    return item === item.length;
-  });
-  console.log(foundDescription); */
-
   return (
-    <Card>
-      <div>
+    <main>
+      <Header>
         <h1>Übung</h1>
         <Link to={'/Uebungen_Ueberblick/' + category}>
           <Previous />
         </Link>
-      </div>
+        {foundExercise && <h2>{foundExercise.titel}</h2>}
+      </Header>
 
-      <h2>{foundExercise.titel}</h2>
-
-      {/*  Mapping über Text aus Array..
-      {foundExercise.description.map((description) => {
-        return <p>description</p>;
-      })} */}
-      {/*     <p>{foundDescription}</p> */}
-
-      {foundExercise.imageURL.map((img) => {
-        return <ImgCard src={img} alt="details for each exercise" />;
-      })}
-    </Card>
+      {foundExercise &&
+        foundExercise.imageURL.map((img, index) => {
+          return (
+            <CardText>
+              <img src={img} alt="details for each exercise" />
+              <li>{foundExercise.description[index]}</li>
+            </CardText>
+          );
+        })}
+    </main>
   );
 }
 
-const ImgCard = styled.img`
-  display: block;
-  width: 25rem;
-  margin: 0 auto;
+const Header = styled.section`
+  margin: 1rem 1rem 3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 `;
-const Card = styled.section`
-  /*  margin: 2rem 1rem 3rem 1rem; */
 
-  div {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 1rem 0.5rem 1.5rem;
+const CardText = styled.div`
+  display: flex;
+  margin: 2rem 0rem 0rem 0rem;
+  color: var(--white);
+
+  img {
+    margin: 0;
+    position: relative;
   }
-  h2 {
-    margin: 0rem 3rem 1rem 1.5rem;
+  li {
+    position: absolute;
+    z-index: 40;
+    margin: 2rem 2rem 2rem 11rem;
+    list-style: none;
+    padding: 0;
+    font-size: var(--fs-300);
   }
 `;

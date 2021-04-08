@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import backgroundPages from './assets/backgroundPages.svg';
+import background from './assets/background_2.png';
 
 export default createGlobalStyle`
 :root {
@@ -49,14 +49,16 @@ p {
 }
 
 body {
-  background-image: url(${backgroundPages});
+  background-image: url(${background});
   background-repeat: no-repeat;
+  height: auto;
   
   font-family: Assistant;
   font-size: 1.25rem; /* var(--fs-400) */
   line-height: 1.5;
 
-  margin: 0;
+  margin: 0 auto;
+  max-width: 400px;
 }
 
 

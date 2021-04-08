@@ -2,6 +2,7 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ReactComponent as Like } from '../assets/like.svg';
+import { ReactComponent as Previous } from '../assets/previous.svg';
 
 export default function ExercisesCategory({
   exercises,
@@ -16,7 +17,12 @@ export default function ExercisesCategory({
 
   return (
     <CategoryCard>
-      <h1>{category.toUpperCase()}-Übungen</h1>
+      <Header>
+        <h1>{category.toUpperCase()}-Übungen</h1>
+        <Link to={'/Bodyparts'}>
+          <Previous />
+        </Link>
+      </Header>
 
       {filteredExercises.map((exercise) => (
         <ExerciseWrapper>
@@ -52,6 +58,11 @@ function isFavorite(favoriteExercises, exercise) {
     (favoriteExercise) => favoriteExercise._id === exercise._id
   );
 }
+
+const Header = styled.section`
+  display: flex;
+  justify-content: space-between;
+`;
 
 const CategoryCard = styled.section`
   margin: 2rem 1rem 3rem 1rem;
