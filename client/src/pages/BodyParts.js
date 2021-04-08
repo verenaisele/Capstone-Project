@@ -10,11 +10,11 @@ export default function BodyParts({ resetTimer }) {
     <BodypartsWrapper>
       <HeaderNav />
       <section>
-        <h1>Wähle...</h1>
-        <p>
+        <h2>Wähle...</h2>
+        <h4>
           welchem Bereich deines Körpers möchtest du dich heute besonders
           widmen?
-        </p>
+        </h4>
       </section>
       <Body>
         <div>
@@ -25,52 +25,55 @@ export default function BodyParts({ resetTimer }) {
           <Link to="/Uebungen_Ueberblick/kopf">
             <Mark />
           </Link>
-          <p>Kopf</p>
+          <h5>Kopf</h5>
         </div>
 
         <div className="Augen">
           <Link to="/Uebungen_Ueberblick/augen">
             <Mark />
           </Link>
-          <p>Augen</p>
+          <h5>Augen</h5>
         </div>
 
         <div className="Nacken">
           <Link to="/Uebungen_Ueberblick/nacken">
             <Mark />
           </Link>
-          <p>Nacken</p>
+          <Nacken>Nacken</Nacken>
         </div>
 
         <div className="Rücken">
           <Link to="/Uebungen_Ueberblick/rücken">
             <Mark />
           </Link>
-          <p>Rücken</p>
+          <h5>Ruecken</h5>
         </div>
 
         <div className="Schulter">
           <Link to="/Uebungen_Ueberblick/schulter">
             <Mark />
           </Link>
-          <p>Schulter</p>
+          <h5>Schulter</h5>
         </div>
 
         <div className="Handgelenke">
           <Link to="/Uebungen_Ueberblick/handgelenke">
             <Mark />
           </Link>
-          <p>Handgelenke</p>
+          <h5>Handgelenk</h5>
         </div>
       </Body>
     </BodypartsWrapper>
   );
 }
+const Nacken = styled.h5`
+  margin-left: -10rem;
+`;
 
 const BodypartsWrapper = styled.section`
   color: var(--black);
   section {
-    margin: 2rem 1rem 3rem 1.5rem;
+    margin: 2rem 1rem 2.5rem 1.5rem;
   }
 `;
 const Body = styled.div`

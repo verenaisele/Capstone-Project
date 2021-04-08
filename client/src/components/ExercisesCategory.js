@@ -18,7 +18,7 @@ export default function ExercisesCategory({
   return (
     <CategoryCard>
       <Header>
-        <h1>{category.toUpperCase()}-Übungen</h1>
+        {filteredExercises && <h2>{category.toUpperCase()}-Übungen</h2>}
         <Link to={'/Bodyparts'}>
           <Previous />
         </Link>
@@ -29,7 +29,7 @@ export default function ExercisesCategory({
           <img src={exercise.titelImg} alt="details for each exercise" />
           <section>
             <Link to={'/Uebungen_Ueberblick/' + category + '/' + exercise._id}>
-              <h2>Übung</h2>
+              <h3>Übung</h3>
               <h3>{exercise.titel}</h3>
             </Link>
             <div>

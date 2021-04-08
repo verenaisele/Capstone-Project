@@ -14,11 +14,11 @@ export default function ExerciseCard({ exercises }) {
   return (
     <main>
       <Header>
-        <h1>Übung</h1>
+        <h2>Übung</h2>
         <Link to={'/Uebungen_Ueberblick/' + category}>
           <Previous />
         </Link>
-        {foundExercise && <h2>{foundExercise.titel}</h2>}
+        {foundExercise && <h3>{foundExercise.titel}</h3>}
       </Header>
 
       {foundExercise &&
@@ -36,9 +36,24 @@ export default function ExerciseCard({ exercises }) {
 
 const Header = styled.section`
   margin: 1rem 1rem 3rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+  display: grid;
+  grid-template: 2.5rem 2rem / 10rem 9rem 2rem;
+
+  a {
+    margin: 0 0 1rem auto;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  h2 {
+    margin-right: 3rem;
+    font-weight: 600;
+  }
+  h3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
 `;
 
 const CardText = styled.div`
@@ -48,6 +63,7 @@ const CardText = styled.div`
 
   img {
     margin: 0;
+    padding: 0;
     position: relative;
   }
   li {

@@ -16,7 +16,7 @@ export default createGlobalStyle`
   --fs-500: 1.25rem; //Beschriftungen bodyparts
   --fs-600: 1.563rem; //h3
   --fs-900: 1.953rem; //h2 Unterüberschrift
-  --fs-950: 3.052rem; //h1 auf Startseite
+  --fs-700: 3.052rem; //h1 auf Startseite
 }
 
 *,
@@ -26,26 +26,40 @@ export default createGlobalStyle`
 }
 
 h1 {
-  font-size: var(--fs-950);
-  font-style: bold;
+  font-family: Nanum Brush Script;
+  font-size: 4.5rem;
   line-height: 1;
   margin: 0;
 }
 h2 {
   font-size: var(--fs-900);
-  font-style: semibold;
   line-height: 1.2;
   margin: 0;
 }
 h3 {
   font-size: var(--fs-600);
-  font-style: semibold;
   line-height: 1.2;
   margin: 0;
+}
+h4 {
+  font-size: var( --fs-500);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+h5 {
+  font-family: Nanum Brush Script;
+  color: var(--black);
+  font-size: var(--fs-900);
+  margin: 0;
+  transform: rotate(-7deg);
+  margin-left: 0.5rem
 }
 
 p {
   margin: 0;
+  font-size: var(--fs-300);
+  line-height: 1.25;
 }
 
 body {
@@ -54,8 +68,7 @@ body {
   height: auto;
   
   font-family: Assistant;
-  font-size: 1.25rem; /* var(--fs-400) */
-  line-height: 1.5;
+ 
 
   margin: 0 auto;
   max-width: 400px;
@@ -74,9 +87,5 @@ ol[class] li {
   list-style: none;
   padding: 0;
 }
-/* img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-} */
+
 `;

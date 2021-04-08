@@ -32,14 +32,18 @@ const TimerWrapper = styled.div`
   }
   h1 {
     color: var(--white);
-    font-size: 3.815rem;
+    font-size: 14rem;
   }
   button {
+    background: var(--black);
+    color: var(--white);
     border-style: none;
     border-radius: 5px;
-    box-shadow: 3px 5px 7px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
     font-size: var(--fs-200);
-    margin-bottom: 100px;
+    letter-spacing: 0.05rem;
+   
+    margin-bottom: 40px;
 
     padding: 0.4rem 0.8rem;
   }

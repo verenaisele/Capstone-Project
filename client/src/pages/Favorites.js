@@ -12,7 +12,10 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
     <>
       <HeaderNav />
       <FavoriteCard>
-        <h1>Merkliste</h1>
+        <Header>
+          <h2>Merkliste</h2>
+          <h4>Hier werden alle Übungen gelistet, die du dir gemerkt hast.</h4>
+        </Header>
         {favoriteExercises && favoriteExercises.length > 0 ? (
           <p>
             {favoriteExercises.map((favoriteExercise) => (
@@ -22,7 +25,7 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
                   alt="details for each exercise"
                 />
                 <section>
-                  <h2>{favoriteExercise.titel}</h2>
+                  <h3>{favoriteExercise.titel}</h3>
 
                   <Link
                     to={
@@ -43,7 +46,7 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
             ))}
           </p>
         ) : (
-          <h2>Bislang befinden sich noch keine Übungen in der Merkliste!</h2>
+          <h3>Bislang befinden sich noch keine Übungen in der Merkliste!</h3>
         )}
       </FavoriteCard>
     </>
@@ -51,8 +54,13 @@ export default function Favorites({ favoriteExercises, onRemoveFavorite }) {
 }
 
 const FavoriteCard = styled.section`
-  margin: 2rem 1rem 3rem 1rem;
+  margin: 2rem 1rem 0rem 1rem;
 `;
+
+const Header = styled.header`
+  margin-bottom: 2.5rem;
+`;
+
 const FavroriteWrapper = styled.div`
   display: flex;
   margin: 2rem 0rem 3rem 0rem;
@@ -67,13 +75,13 @@ const FavroriteWrapper = styled.div`
     background: var(--black);
     border-radius: 1rem;
     display: grid;
-    grid-template: 1rem 4rem 2rem 3.5rem / 2rem 2rem 4rem 5rem 1rem;
+    grid-template: 1rem 4rem 2rem 3rem / 1.5rem 2rem 4rem 5rem 1.5rem;
     position: relative;
     right: -115px;
-    top: 20px;
+    top: 15px;
     width: 14rem;
   }
-  h2 {
+  h3 {
     color: var(--white);
     grid-row: 2;
     grid-column: 2 / -1;

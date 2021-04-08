@@ -6,10 +6,10 @@ import { ReactComponent as Favorites } from '../assets/like.svg';
 
 export default function HeaderNav() {
   return (
-    <Header>
+    <header>
       <NavWrapper>
         <NavLink activeClassName="active" className="link" exact to="/">
-          <OhmIcon />
+          <Ohmpage />
         </NavLink>
         <NavLink activeClassName="active" className="link" to="/Bodyparts">
           <Bodyparts />
@@ -18,27 +18,21 @@ export default function HeaderNav() {
           <Favorites />
         </NavLink>
       </NavWrapper>
-    </Header>
+    </header>
   );
 }
-
-const OhmIcon = styled(Ohmpage)`
-  //margin: 2rem;
-`;
-
-const Header = styled.header`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: none;
-  background-image: none;
-  margin-top: 1rem;
-`;
 
 const NavWrapper = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
+
+  a {
+    font-size: 1rem;
+    line-height: 1rem;
+    border-radius: 0.25rem;
+  }
 
   .link {
     margin-left: 5px;
