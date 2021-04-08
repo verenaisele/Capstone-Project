@@ -5,6 +5,7 @@ import Favorites from './pages/Favorites';
 import Ohm from './pages/Ohm';
 import ExerciseCard from './components/ExerciseCard';
 import ExercisesCategory from './components/ExercisesCategory';
+import HeaderNav from './components/HeaderNav';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
 function App() {
@@ -25,11 +26,6 @@ function App() {
       .catch((err) => console.error(err.message));
   }, []);
 
-  //exercise hinzufügen zu favorites
-  /*   const addToFavorite = (exerciseToAdd) => {
-    setfavoriteExercises([...favoriteExercises, exerciseToAdd]);
-  }; */
-
   //add und ablgeich ob schon in liste
   function addToFavorite(exerciseToAdd) {
     const favoriteAlreadyExists = favoriteExercises.find(
@@ -48,9 +44,11 @@ function App() {
     );
     setfavoriteExercises(updatedFavorites);
   };
+
   console.log(favoriteExercises);
   return (
     <div>
+      <HeaderNav />
       <Switch>
         <Route exact path="/Uebungen_Ueberblick">
           {exercises && (
@@ -66,15 +64,22 @@ function App() {
             />
           )}
         </Route>
+
         <Route path="/Uebungen_Ueberblick/:category/:id">
           {exercises && <ExerciseCard exercises={exercises} />}
         </Route>
+
         <Route path="/Favorites">
           <Favorites
             favoriteExercises={favoriteExercises}
             onRemoveFavorite={removeFromFavorite}
           />
         </Route>
+
+        <Route path="/Bodyparts">
+          <BodyParts />
+        </Route>
+
         <Route exact path="/">
           {timerExpired ? (
             <BodyParts />

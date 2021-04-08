@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="349" height="224" viewBox="0 0 349 224">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="230" viewBox="0 0 376 230">
   <defs>
-    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.429" gradientTransform="translate(0 -0.227) scale(1 1.454)" gradientUnits="objectBoundingBox">
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.317" gradientTransform="translate(0 -0.347) scale(1 1.693)" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#e6fff2"/>
       <stop offset="1" stop-color="#147593"/>
     </radialGradient>
-    <filter id="Rectangle_38" x="0" y="0" width="349" height="224" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_35" x="0" y="0" width="376" height="230" filterUnits="userSpaceOnUse">
       <feOffset dx="4" dy="8" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="7.5" result="blur"/>
       <feFlood flood-color="#260606" flood-opacity="0.89"/>
@@ -12,60 +12,66 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Group_105" data-name="Group 105" transform="translate(-2833.5 958.5)">
-    <g transform="matrix(1, 0, 0, 1, 2833.5, -958.5)" filter="url(#Rectangle_38)">
-      <rect id="Rectangle_38-2" data-name="Rectangle 38" width="304" height="179" rx="12" transform="translate(18.5 14.5)" opacity="0.784" fill="url(#radial-gradient)"/>
+  <g id="Group_119" data-name="Group 119" transform="translate(-2491.5 1752.5)">
+    <g id="Group_106" data-name="Group 106" transform="translate(0 -258)">
+      <g id="Group_107" data-name="Group 107">
+        <g transform="matrix(1, 0, 0, 1, 2491.5, -1494.5)" filter="url(#Rectangle_35)">
+          <rect id="Rectangle_35-2" data-name="Rectangle 35" width="331" height="185" rx="12" transform="translate(18.5 14.5)" opacity="0.784" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
     </g>
-    <text id="min._6_m" data-name="min. 6 m" transform="translate(2867 -909)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">min. 6 m</tspan></text>
-    <g id="Group_81" data-name="Group 81" transform="translate(2907 -933.24)">
-      <g id="Polygon_3" data-name="Polygon 3" transform="translate(28 0.031)" fill="#fff">
-        <path d="M 58.30751419067383 88.5 L 0.6924867033958435 88.5 L 29.5 1.589197158813477 L 58.30751419067383 88.5 Z" stroke="none"/>
-        <path d="M 29.5 3.1783447265625 L 1.384956359863281 88 L 57.61504364013672 88 L 29.5 3.1783447265625 M 29.5 0 L 59 89 L 0 89 L 29.5 0 Z" stroke="none" fill="#707070"/>
+    <g id="Group_118" data-name="Group 118" transform="translate(-387.5 -793)">
+      <text id="min._6_m" data-name="min. 6 m" transform="translate(2904 -909)" fill="#fff" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">min. 6 m</tspan></text>
+      <g id="Group_81" data-name="Group 81" transform="translate(2944 -933.24)">
+        <g id="Polygon_3" data-name="Polygon 3" transform="translate(28 0.031)" fill="#fff">
+          <path d="M 58.30751419067383 88.5 L 0.6924867033958435 88.5 L 29.5 1.589197158813477 L 58.30751419067383 88.5 Z" stroke="none"/>
+          <path d="M 29.5 3.1783447265625 L 1.384956359863281 88 L 57.61504364013672 88 L 29.5 3.1783447265625 M 29.5 0 L 59 89 L 0 89 L 29.5 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Polygon_4" data-name="Polygon 4" transform="translate(0 42.031)" fill="#fff">
+          <path d="M 63.18522644042969 62.5 L 0.8147684335708618 62.5 L 31.99999809265137 1.104079008102417 L 63.18522644042969 62.5 Z" stroke="none"/>
+          <path d="M 31.99999809265137 2.208168029785156 L 1.629543304443359 62 L 62.37045288085938 62 L 31.99999809265137 2.208168029785156 M 31.99999809265137 0 L 64 63 L -3.814697265625e-06 63 L 31.99999809265137 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Polygon_5" data-name="Polygon 5" transform="translate(39 57.031)" fill="#fff">
+          <path d="M 46.31660461425781 73.5 L 0.6833944320678711 73.5 L 23.5 1.651965498924255 L 46.31660461425781 73.5 Z" stroke="none"/>
+          <path d="M 23.5 3.303886413574219 L 1.366775512695312 73 L 45.63322448730469 73 L 23.5 3.303886413574219 M 23.5 0 L 47 74 L 0 74 L 23.5 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <line id="Line_15" data-name="Line 15" y2="28.167" transform="translate(61.92 129.282)" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Group_80" data-name="Group 80" transform="translate(43.301 8.691)">
+          <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(-0.301 23.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="7" height="8" stroke="none"/>
+            <rect x="0.125" y="0.125" width="6.75" height="7.75" fill="none"/>
+          </g>
+          <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(11.699 7.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="8" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
+          </g>
+          <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(8.699 19.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="8" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
+          </g>
+          <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(3.699 10.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="9" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="8.75" fill="none"/>
+          </g>
+          <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(6.699 0.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="7" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="6.75" fill="none"/>
+          </g>
+          <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(17.699 15.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="8" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
+          </g>
+          <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(17.699 27.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
+            <rect width="6" height="7" stroke="none"/>
+            <rect x="0.125" y="0.125" width="5.75" height="6.75" fill="none"/>
+          </g>
+        </g>
+        <line id="Line_19" data-name="Line 19" y2="28.167" transform="translate(28.925 104.334)" fill="none" stroke="#707070" stroke-width="1"/>
       </g>
-      <g id="Polygon_4" data-name="Polygon 4" transform="translate(0 42.031)" fill="#fff">
-        <path d="M 63.18523025512695 62.5 L 0.8147703409194946 62.5 L 32 1.104079008102417 L 63.18523025512695 62.5 Z" stroke="none"/>
-        <path d="M 32 2.208168029785156 L 1.629547119140625 62 L 62.37045288085938 62 L 32 2.208168029785156 M 32 0 L 64 63 L 0 63 L 32 0 Z" stroke="none" fill="#707070"/>
+      <g id="Group_83" data-name="Group 83" transform="translate(639.847 255.169)">
+        <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M17.376,13.86l-5.8-5.8a1.1,1.1,0,0,1,1.552-1.548l6.575,6.57a1.094,1.094,0,0,1,.032,1.511l-6.6,6.616a1.1,1.1,0,0,1-1.552-1.548Z" transform="translate(2306.135 -1167.362)" fill="#fff"/>
+        <line id="Line_24" data-name="Line 24" x1="57" transform="translate(2266.5 -1153.5)" fill="none" stroke="#fff" stroke-width="2"/>
       </g>
-      <g id="Polygon_5" data-name="Polygon 5" transform="translate(39 57.031)" fill="#fff">
-        <path d="M 46.31660461425781 73.5 L 0.6833944320678711 73.5 L 23.5 1.651965498924255 L 46.31660461425781 73.5 Z" stroke="none"/>
-        <path d="M 23.5 3.303886413574219 L 1.366775512695312 73 L 45.63322448730469 73 L 23.5 3.303886413574219 M 23.5 0 L 47 74 L 0 74 L 23.5 0 Z" stroke="none" fill="#707070"/>
-      </g>
-      <line id="Line_15" data-name="Line 15" y2="28.167" transform="translate(61.92 129.282)" fill="none" stroke="#707070" stroke-width="1"/>
-      <g id="Group_80" data-name="Group 80" transform="translate(43.301 8.691)">
-        <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(-0.301 23.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="7" height="8" stroke="none"/>
-          <rect x="0.125" y="0.125" width="6.75" height="7.75" fill="none"/>
-        </g>
-        <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(11.699 7.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="8" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
-        </g>
-        <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(8.699 19.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="8" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
-        </g>
-        <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(3.699 10.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="9" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="8.75" fill="none"/>
-        </g>
-        <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(6.699 0.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="7" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="6.75" fill="none"/>
-        </g>
-        <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(17.699 15.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="8" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="7.75" fill="none"/>
-        </g>
-        <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(17.699 27.34)" fill="#06f0ba" stroke="#0f39eb" stroke-width="0.25">
-          <rect width="6" height="7" stroke="none"/>
-          <rect x="0.125" y="0.125" width="5.75" height="6.75" fill="none"/>
-        </g>
-      </g>
-      <line id="Line_19" data-name="Line 19" y2="28.167" transform="translate(28.925 104.334)" fill="none" stroke="#707070" stroke-width="1"/>
-    </g>
-    <g id="Group_83" data-name="Group 83" transform="translate(602.847 255.169)">
-      <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M17.376,13.86l-5.8-5.8a1.1,1.1,0,0,1,1.552-1.548l6.575,6.57a1.094,1.094,0,0,1,.032,1.511l-6.6,6.616a1.1,1.1,0,0,1-1.552-1.548Z" transform="translate(2306.135 -1167.362)" fill="#fff"/>
-      <line id="Line_24" data-name="Line 24" x1="57" transform="translate(2266.5 -1153.5)" fill="none" stroke="#fff" stroke-width="2"/>
     </g>
   </g>
 </svg>

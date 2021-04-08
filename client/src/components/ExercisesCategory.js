@@ -1,6 +1,7 @@
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { ReactComponent as Like } from '../assets/like.svg';
 
 export default function ExercisesCategory({
   exercises,
@@ -20,20 +21,21 @@ export default function ExercisesCategory({
       {filteredExercises.map((exercise) => (
         <ExerciseWrapper>
           <img src={exercise.titelImg} alt="details for each exercise" />
-          <div>
+          <section>
             <Link to={'/Uebungen_Ueberblick/' + category + '/' + exercise._id}>
               <h2>Übung</h2>
               <h3>{exercise.titel}</h3>
             </Link>
-            <button
-              className={
-                isFavorite(favoriteExercises, exercise) ? 'active' : ''
-              }
-              onClick={() => onAddToFavorite(exercise)}
-            >
-              L
-            </button>
-          </div>
+            <div>
+              <button onClick={() => onAddToFavorite(exercise)}>
+                <Like
+                  className={
+                    isFavorite(favoriteExercises, exercise) ? 'unlike' : 'like'
+                  }
+                />
+              </button>
+            </div>
+          </section>
         </ExerciseWrapper>
       ))}
     </CategoryCard>
@@ -60,7 +62,7 @@ const ExerciseWrapper = styled.div`
   margin: 2rem 0rem 3rem 0rem;
   color: var(--white);
 
-  div {
+  section {
     background: var(--black);
     border-radius: 1rem;
     display: grid;
@@ -81,13 +83,20 @@ const ExerciseWrapper = styled.div`
     grid-row: 3;
     grid-column: 2 / -1;
   }
-  button {
+  div {
     grid-row: 2;
     grid-column: 3;
     height: 1.5rem;
     width: 1rem;
   }
-  .active {
-    background: hotpink;
+  button {
+    background: none;
+    border: none;
+  }
+  .unlike {
+    fill: var(--secondary-light);
+  }
+  .like {
+    fill: #fff;
   }
 `;

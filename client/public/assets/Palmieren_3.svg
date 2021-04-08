@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="235.5" viewBox="0 0 376 235.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.317" gradientTransform="translate(0 -0.347) scale(1 1.693)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+    <filter id="Rectangle_35" x="0" y="5.5" width="376" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#260606" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_113" data-name="Group 113" transform="translate(-2852.5 1771)">
+    <g id="Group_106" data-name="Group 106" transform="translate(361 -271)">
+      <g id="Group_107" data-name="Group 107">
+        <g id="Group_109" data-name="Group 109">
+          <g transform="matrix(1, 0, 0, 1, 2491.5, -1500)" filter="url(#Rectangle_35)">
+            <rect id="Rectangle_35-2" data-name="Rectangle 35" width="331" height="185" rx="12" transform="translate(18.5 20)" opacity="0.784" fill="url(#radial-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_112" data-name="Group 112" transform="translate(-402 -271)">
+      <g id="Group_92" data-name="Group 92" transform="translate(1111 -606)">
+        <g id="Group_90" data-name="Group 90" transform="translate(2175 -812.995)">
+          <line id="Line_3" data-name="Line 3" x1="18.156" y1="18.156" transform="translate(10.475 10.475)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_4" data-name="Line 4" y1="22.346" x2="13.966" transform="translate(71.926 10.475)" fill="none" stroke="#707070" stroke-width="1"/>
+          <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 -0.005)" fill="red" stroke="#707070" stroke-width="1">
+            <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+            <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+          </g>
+          <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(82 -0.005)" fill="red" stroke="#707070" stroke-width="1">
+            <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+            <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+          </g>
+          <line id="Line_13" data-name="Line 13" y1="9.776" x2="9.776" transform="translate(27.234 18.855)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_14" data-name="Line 14" x1="11.173" y1="16.76" transform="translate(60.753 16.061)" fill="none" stroke="#707070" stroke-width="1"/>
+        </g>
+        <g id="Group_91" data-name="Group 91" transform="translate(2187.57 -894)">
+          <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(8.43)" fill="#fff" stroke="#707070" stroke-linejoin="round" stroke-width="1">
+            <circle cx="30" cy="30" r="30" stroke="none"/>
+            <circle cx="30" cy="30" r="29.5" fill="none"/>
+          </g>
+          <g id="Polygon_2" data-name="Polygon 2" transform="translate(0.431 60)" fill="#fff">
+            <path d="M 74.3072509765625 112.5 L 0.6927493214607239 112.5 L 37.5 1.58748459815979 L 74.3072509765625 112.5 Z" stroke="none"/>
+            <path d="M 37.5 3.174949645996094 L 1.385490417480469 112 L 73.61450958251953 112 L 37.5 3.174949645996094 M 37.5 0 L 75 113 L 0 113 L 37.5 0 Z" stroke="none" fill="#707070"/>
+          </g>
+          <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(26.43 34)" fill="none" stroke="#707070" stroke-width="1">
+            <ellipse cx="12.5" cy="6.5" rx="12.5" ry="6.5" stroke="none"/>
+            <ellipse cx="12.5" cy="6.5" rx="12" ry="6" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <text id="Ahhh" transform="translate(3360 -1433)" fill="#fff" font-size="16" font-family="HelveticaNeue-ThinItalic, Helvetica Neue" font-weight="200" font-style="italic"><tspan x="0" y="0">Ahhh</tspan></text>
+    </g>
+  </g>
+</svg>

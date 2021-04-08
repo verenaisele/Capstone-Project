@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="235.5" viewBox="0 0 376 235.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.317" gradientTransform="translate(0 -0.347) scale(1 1.693)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+    <filter id="Rectangle_35" x="0" y="5.5" width="376" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#260606" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_120" data-name="Group 120" transform="translate(-2491.5 1765)">
+    <g id="Group_106" data-name="Group 106" transform="translate(0 -265)">
+      <g id="Group_107" data-name="Group 107">
+        <g transform="matrix(1, 0, 0, 1, 2491.5, -1500)" filter="url(#Rectangle_35)">
+          <rect id="Rectangle_35-2" data-name="Rectangle 35" width="331" height="185" rx="12" transform="translate(18.5 20)" opacity="0.784" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_72" data-name="Group 72" transform="translate(410 -861)">
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2131 -904)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="29.5" fill="none"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(2124 -844)" fill="#fff">
+        <path d="M 75.30628204345703 113.5 L 0.6937142610549927 113.5 L 38 1.581142902374268 L 75.30628204345703 113.5 Z" stroke="none"/>
+        <path d="M 38 3.162261962890625 L 1.387420654296875 113 L 74.61257934570312 113 L 38 3.162261962890625 M 38 0 L 76 114 L 0 114 L 38 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Group_71" data-name="Group 71" transform="translate(2126.105 -873.129)">
+        <line id="Line_3" data-name="Line 3" x1="23.855" y1="46.306" transform="translate(0 20.347)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_4" data-name="Line 4" x1="21.048" y1="5.613" transform="translate(42.097 59.637)" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(8.895 0.129)" fill="red" stroke="#707070" stroke-width="1">
+          <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+          <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(40.895 87.129)" fill="red" stroke="#707070" stroke-width="1">
+          <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+          <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+        </g>
+        <line id="Line_5" data-name="Line 5" x1="11.927" y2="22.452" transform="translate(50.516 65.25)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_6" data-name="Line 6" x1="9.823" y2="12.629" transform="translate(0 9.121)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Group_70" data-name="Group 70" transform="translate(2131.79 -880.224)">
+        <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(7.21 5.224)" fill="none" stroke="#707070" stroke-width="0.5" stroke-dasharray="2">
+          <ellipse cx="14.5" cy="7.5" rx="14.5" ry="7.5" stroke="none"/>
+          <ellipse cx="14.5" cy="7.5" rx="14.25" ry="7.25" fill="none"/>
+        </g>
+        <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(37.21 5.224)" fill="none" stroke="#707070" stroke-width="0.5" stroke-dasharray="2">
+          <ellipse cx="14" cy="7.5" rx="14" ry="7.5" stroke="none"/>
+          <ellipse cx="14" cy="7.5" rx="13.75" ry="7.25" fill="none"/>
+        </g>
+        <g id="Group_69" data-name="Group 69">
+          <path id="Icon_metro-arrow-left" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="translate(7.713 3.22) rotate(-25)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-2" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="matrix(-0.999, 0.035, -0.035, -0.999, 23.43, 26.137)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-3" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="matrix(-0.899, 0.438, -0.438, -0.899, 33.3, 24.105)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-4" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="translate(12.564 24.474) rotate(-161)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-5" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="translate(0 8.549) rotate(-69)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-6" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="matrix(-0.407, 0.914, -0.914, -0.407, 38.695, 16.873)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-7" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="matrix(-0.407, 0.914, -0.914, -0.407, 41.502, 5.548)" fill="#707070"/>
+          <path id="Icon_metro-arrow-left-8" data-name="Icon metro-arrow-left" d="M1.94,4.29.107,2.458a.366.366,0,0,1,0-.518L1.94.107a.366.366,0,1,1,.518.518L1.251,1.832H4.764a.366.366,0,1,1,0,.733H1.251L2.458,3.772a.366.366,0,0,1-.518.518Z" transform="translate(47.596 4.248) rotate(165)" fill="#707070"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

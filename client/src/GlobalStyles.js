@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import kugelbild from './assets/Kugelbild_komplett.jpg';
+import backgroundPages from './assets/backgroundPages.svg';
 
 export default createGlobalStyle`
 :root {
@@ -12,12 +12,11 @@ export default createGlobalStyle`
 
   
   --fs-200: 0.75rem;
-  --fs-300: 1rem;
-  --fs-400: 1.25rem;
-  --fs-500: 1.375rem;
-  --fs-600: 1.75rem;
-  --fs-900: 2.125rem;
-  --fs-950: 2.5rem; //h1 auf Startseite
+  --fs-300: 1rem; //Fließtext Übungen
+  --fs-500: 1.25rem; //Beschriftungen bodyparts
+  --fs-600: 1.563rem; //h3
+  --fs-900: 1.953rem; //h2 Unterüberschrift
+  --fs-950: 3.052rem; //h1 auf Startseite
 }
 
 *,
@@ -26,7 +25,21 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: var(--fs-950);
+  font-style: bold;
+  line-height: 1;
+  margin: 0;
+}
+h2 {
+  font-size: var(--fs-900);
+  font-style: semibold;
+  line-height: 1.2;
+  margin: 0;
+}
+h3 {
+  font-size: var(--fs-600);
+  font-style: semibold;
   line-height: 1.2;
   margin: 0;
 }
@@ -36,9 +49,10 @@ p {
 }
 
 body {
-  background: url(${kugelbild});
+  background-image: url(${backgroundPages});
+  background-repeat: no-repeat;
   
-  font-family: sans-serif;
+  font-family: Assistant;
   font-size: 1.25rem; /* var(--fs-400) */
   line-height: 1.5;
 
@@ -58,9 +72,9 @@ ol[class] li {
   list-style: none;
   padding: 0;
 }
-img {
+/* img {
   max-width: 100%;
   height: auto;
   display: block;
-}
+} */
 `;
