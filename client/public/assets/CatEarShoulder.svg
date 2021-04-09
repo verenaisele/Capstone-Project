@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="163" viewBox="0 0 127 163">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.67" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_128" data-name="Group 128" transform="translate(-2571 2129)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="127" height="163" rx="12" transform="translate(2571 -2129)" fill="url(#radial-gradient)"/>
+    <g id="Group_126" data-name="Group 126" transform="translate(473.42 -54.179)">
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2148.318 -2051)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="21.905" cy="21.905" r="21.905" stroke="none"/>
+        <circle cx="21.905" cy="21.905" r="21.405" fill="none"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(2125 -2018.495)" fill="#fff">
+        <path d="M 54.42263793945312 82.17453002929688 L 0.6937130689620972 82.17453002929688 L 27.55817604064941 1.581142783164978 L 54.42263793945312 82.17453002929688 Z" stroke="none"/>
+        <path d="M 27.55817604064941 3.162254333496094 L 1.387416839599609 81.67453002929688 L 53.72893524169922 81.67453002929688 L 27.55817604064941 3.162254333496094 M 27.55817604064941 0 L 55.11635208129883 82.67453002929688 L 0 82.67453002929688 L 27.55817604064941 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <line id="Line_3" data-name="Line 3" x1="7.135" y2="5.096" transform="translate(2136.722 -1991.372)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="10.193" y2="26.501" transform="translate(2188.705 -2044.375)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(2140.546 -1981.751)" fill="red" stroke="#707070" stroke-width="1">
+        <circle cx="4.593" cy="4.593" r="4.593" stroke="none"/>
+        <circle cx="4.593" cy="4.593" r="4.093" fill="none"/>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(2182.943 -2051)" fill="red" stroke="#707070" stroke-width="1">
+        <circle cx="4.593" cy="4.593" r="4.593" stroke="none"/>
+        <circle cx="4.593" cy="4.593" r="4.093" fill="none"/>
+      </g>
+      <line id="Line_5" data-name="Line 5" y1="31.088" x2="35.42" transform="translate(2163.478 -2017.873)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="4.077" y2="5.606" transform="translate(2136.722 -1986.785)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

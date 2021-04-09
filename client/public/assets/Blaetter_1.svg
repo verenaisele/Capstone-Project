@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="235.5" viewBox="0 0 376 235.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.317" gradientTransform="translate(0 -0.347) scale(1 1.693)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+    <filter id="Rectangle_35" x="0" y="5.5" width="376" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#260606" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_116" data-name="Group 116" transform="translate(-2491.5 1782)">
+    <g id="Group_106" data-name="Group 106" transform="translate(0 -282)">
+      <g id="Group_107" data-name="Group 107">
+        <g transform="matrix(1, 0, 0, 1, 2491.5, -1500)" filter="url(#Rectangle_35)">
+          <rect id="Rectangle_35-2" data-name="Rectangle 35" width="331" height="185" rx="12" transform="translate(18.5 20)" opacity="0.784" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(2.497 -812)">
+      <g id="Group_86" data-name="Group 86" transform="translate(2581.005 -933.122)">
+        <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M17.37,13.853l-5.8-5.793a1.1,1.1,0,1,1,1.551-1.546l6.568,6.564a1.093,1.093,0,0,1,.032,1.51l-6.6,6.609a1.1,1.1,0,0,1-1.551-1.546Z" transform="translate(41.487 11.806)" fill="#fff"/>
+        <g id="Group_85" data-name="Group 85" transform="translate(0 0)">
+          <text id="min._6_m" data-name="min. 6 m" transform="translate(-0.005 14.122)" fill="#fff" font-size="15" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">min. 6 m</tspan></text>
+          <line id="Line_24" data-name="Line 24" x1="56.944" transform="translate(1.902 25.661)" fill="none" stroke="#fff" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_77" data-name="Group 77" transform="translate(2527.857 -970)">
+        <g id="Polygon_1" data-name="Polygon 1" transform="translate(0.143 61)" fill="#fff">
+          <path d="M 50.37211990356445 110.5 L 0.6278814673423767 110.5 L 25.5 2.233131170272827 L 50.37211990356445 110.5 Z" stroke="none"/>
+          <path d="M 25.5 4.466339111328125 L 1.255779266357422 110 L 49.74422073364258 110 L 25.5 4.466339111328125 M 25.5 0 L 51 111 L 0 111 L 25.5 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(5.143 0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <ellipse cx="19" cy="30.5" rx="19" ry="30.5" stroke="none"/>
+          <ellipse cx="19" cy="30.5" rx="18.5" ry="30" fill="none"/>
+        </g>
+        <g id="Group_76" data-name="Group 76" transform="translate(9.713 90.709)">
+          <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(21.43 15.291)" fill="red" stroke="#707070" stroke-width="1">
+            <ellipse cx="6" cy="7" rx="6" ry="7" stroke="none"/>
+            <ellipse cx="6" cy="7" rx="5.5" ry="6.5" fill="none"/>
+          </g>
+          <line id="Line_3" data-name="Line 3" x2="9.758" y2="9.758" transform="translate(0 13.243)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_4" data-name="Line 4" x1="1.394" y2="4.182" transform="translate(29.274 13.243)" fill="none" stroke="#707070" stroke-width="1"/>
+          <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(6.43 20.291)" fill="red" stroke="#707070" stroke-width="1">
+            <circle cx="6" cy="6" r="6" stroke="none"/>
+            <circle cx="6" cy="6" r="5.5" fill="none"/>
+          </g>
+          <line id="Line_13" data-name="Line 13" y1="10.455" x2="11.152" transform="translate(0 4.182)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_14" data-name="Line 14" x1="8.364" y1="13.94" transform="translate(22.304)" fill="none" stroke="#707070" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

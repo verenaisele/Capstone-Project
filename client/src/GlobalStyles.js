@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import kugelbild from './assets/Kugelbild_komplett.jpg';
+import background from './assets/background_2.png';
 
 export default createGlobalStyle`
 :root {
@@ -12,12 +12,11 @@ export default createGlobalStyle`
 
   
   --fs-200: 0.75rem;
-  --fs-300: 1rem;
-  --fs-400: 1.25rem;
-  --fs-500: 1.375rem;
-  --fs-600: 1.75rem;
-  --fs-900: 2.125rem;
-  --fs-950: 2.5rem; //h1 auf Startseite
+  --fs-300: 1rem; //Fließtext Übungen
+  --fs-500: 1.25rem; //Beschriftungen bodyparts
+  --fs-600: 1.563rem; //h3
+  --fs-900: 1.953rem; //h2 Unterüberschrift
+  --fs-700: 3.052rem; //h1 auf Startseite
 }
 
 *,
@@ -26,23 +25,53 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: Nanum Brush Script;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 0;
+}
+h2 {
+  font-size: var(--fs-900);
   line-height: 1.2;
   margin: 0;
+}
+h3 {
+  font-size: var(--fs-600);
+  line-height: 1.2;
+  margin: 0;
+}
+h4 {
+  font-size: var( --fs-500);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+h5 {
+  font-family: Nanum Brush Script;
+  color: var(--black);
+  font-size: var(--fs-900);
+  margin: 0;
+  transform: rotate(-7deg);
+  margin-left: 0.5rem
 }
 
 p {
   margin: 0;
+  font-size: var(--fs-300);
+  line-height: 1.25;
 }
 
 body {
-  background: url(${kugelbild});
+  background-image: url(${background});
+  background-repeat: no-repeat;
+  height: auto;
   
-  font-family: sans-serif;
-  font-size: 1.25rem; /* var(--fs-400) */
-  line-height: 1.5;
+  font-family: Assistant;
+ 
 
-  margin: 0;
+  margin: 0 auto;
+  max-width: 400px;
 }
 
 
@@ -58,9 +87,5 @@ ol[class] li {
   list-style: none;
   padding: 0;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+
 `;

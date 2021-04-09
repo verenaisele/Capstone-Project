@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="230" viewBox="0 0 376 230">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.151" cy="0.5" r="0.317" gradientTransform="translate(0 -0.347) scale(1 1.693)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+    <filter id="Rectangle_35" x="0" y="0" width="376" height="230" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#260606" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_126" data-name="Group 126" transform="translate(-2038.5 2404.5)">
+    <g id="Group_106" data-name="Group 106" transform="translate(-453 -910)">
+      <g id="Group_107" data-name="Group 107">
+        <g transform="matrix(1, 0, 0, 1, 2491.5, -1494.5)" filter="url(#Rectangle_35)">
+          <rect id="Rectangle_35-2" data-name="Rectangle 35" width="331" height="185" rx="12" transform="translate(18.5 14.5)" opacity="0.784" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_125" data-name="Group 125" transform="translate(-44 -349)">
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2158 -2051)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="31" cy="31" r="31" stroke="none"/>
+        <circle cx="31" cy="31" r="30.5" fill="none"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(2125 -2005)" fill="#fff">
+        <path d="M 77.30628967285156 116.5 L 0.6937075853347778 116.5 L 38.99998474121094 1.581123113632202 L 77.30628967285156 116.5 Z" stroke="none"/>
+        <path d="M 38.99998474121094 3.162261962890625 L 1.387420654296875 116 L 76.61257934570312 116 L 38.99998474121094 3.162261962890625 M 38.99998474121094 0 L 78 117 L 0 117 L 38.99998474121094 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <line id="Line_3" data-name="Line 3" x1="10.097" y2="7.212" transform="translate(2141.588 -1966.615)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="14.425" y2="37.504" transform="translate(2215.155 -2041.624)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(2147 -1953)" fill="red" stroke="#707070" stroke-width="1">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(2207 -2051)" fill="red" stroke="#707070" stroke-width="1">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+      </g>
+      <line id="Line_5" data-name="Line 5" y1="43.996" x2="50.126" transform="translate(2179.454 -2004.12)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="5.77" y2="7.934" transform="translate(2141.588 -1960.124)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

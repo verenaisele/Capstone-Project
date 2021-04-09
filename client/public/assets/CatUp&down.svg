@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="163" viewBox="0 0 127 163">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.67" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6fff2"/>
+      <stop offset="1" stop-color="#147593"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_136" data-name="Group 136" transform="translate(-2618 1927)">
+    <g id="Group_97" data-name="Group 97" transform="translate(-1102 -1365)">
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="127" height="163" rx="12" transform="translate(3720 -562)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_135" data-name="Group 135" transform="translate(147.141 8.849)">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(2498 -1885.716)" fill="#fff">
+        <path d="M 39.95292282104492 88.33728790283203 L 0.6270669102668762 88.33728790283203 L 20.28999519348145 2.245561599731445 L 39.95292282104492 88.33728790283203 Z" stroke="none"/>
+        <path d="M 20.28999519348145 4.491104125976562 L 1.254138946533203 87.83727264404297 L 39.32585144042969 87.83727264404297 L 20.28999519348145 4.491104125976562 M 20.28999519348145 -7.62939453125e-06 L 40.57999420166016 88.83727264404297 L -3.814697265625e-06 88.83727264404297 L 20.28999519348145 -7.62939453125e-06 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(2550.884 -1922.941) rotate(60)" fill="#fff" stroke="#707070" stroke-width="1">
+        <ellipse cx="14.806" cy="23.58" rx="14.806" ry="23.58" stroke="none"/>
+        <ellipse cx="14.806" cy="23.58" rx="14.306" ry="23.08" fill="none"/>
+      </g>
+      <g id="Group_134" data-name="Group 134" transform="translate(2506.226 -1861.587)">
+        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(17 13.161)" fill="red" stroke="#707070" stroke-width="1">
+          <circle cx="4.935" cy="4.935" r="4.935" stroke="none"/>
+          <circle cx="4.935" cy="4.935" r="4.435" fill="none"/>
+        </g>
+        <line id="Line_3" data-name="Line 3" x2="7.677" y2="7.677" transform="translate(0 10.419)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_4" data-name="Line 4" x1="0.548" y2="3.29" transform="translate(23.032 10.419)" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(4.935 15.355)" fill="red" stroke="#707070" stroke-width="1">
+          <circle cx="4.935" cy="4.935" r="4.935" stroke="none"/>
+          <circle cx="4.935" cy="4.935" r="4.435" fill="none"/>
+        </g>
+        <line id="Line_13" data-name="Line 13" y1="7.129" x2="8.774" transform="translate(0 3.29)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_14" data-name="Line 14" x1="6.581" y1="10.968" transform="translate(17.548)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <path id="Icon_metro-arrow-down-right" data-name="Icon metro-arrow-down-right" d="M.482,2.808,14.125,16.451h-5.9a1.645,1.645,0,1,0,0,3.29H18.1A1.643,1.643,0,0,0,19.741,18.1h0V8.226a1.645,1.645,0,1,0-3.29,0v5.9L2.808.482A1.645,1.645,0,0,0,.482,2.808Z" transform="translate(2544.687 -1880.896) rotate(30)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

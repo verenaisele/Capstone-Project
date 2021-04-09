@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 109">
+  <g id="Group_141" data-name="Group 141" transform="translate(-3869.887 1111)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="20" cy="19" rx="20" ry="19" transform="translate(3874.887 -1111)" fill="#1f0404"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M25.5,0,51,71H0Z" transform="translate(3869.887 -1073)" fill="#1f0404"/>
+    <g id="Group_140" data-name="Group 140" transform="translate(3871.411 -1092)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="4" cy="4" r="4" transform="translate(6.476)" fill="#fff"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="4.5" cy="3.5" rx="4.5" ry="3.5" transform="translate(27.476 55)" fill="#fff"/>
+      <g id="Group_138" data-name="Group 138" transform="translate(28.228 37.579)">
+        <line id="Line_4" data-name="Line 4" x1="14.114" y1="3.499" fill="none" stroke="#1f0404" stroke-width="2"/>
+        <line id="Line_5" data-name="Line 5" x1="7.998" y2="13.994" transform="translate(5.646 3.499)" fill="none" stroke="#1f0404" stroke-width="2"/>
+      </g>
+      <g id="Group_139" data-name="Group 139" transform="translate(0 6.092)">
+        <line id="Line_3" data-name="Line 3" x1="15.996" y1="28.863" transform="translate(0 6.997)" fill="none" stroke="#1f0404" stroke-width="2"/>
+        <line id="Line_6" data-name="Line 6" x1="6.587" y2="7.872" fill="none" stroke="#1f0404" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

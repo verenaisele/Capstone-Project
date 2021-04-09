@@ -6,7 +6,7 @@ const router = express.Router();
 router.get('/exercises', (req, res) => {
   Exercise.find()
     .then((exercise) => res.json(exercise))
-    .catch((err) => console.log('Route error 404'));
+    .catch((err) => res.status(404).send('Route error 404'));
 });
 
 router.get('/exercises/:exerciseId', (req, res) => {
