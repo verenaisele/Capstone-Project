@@ -51,7 +51,7 @@ const Header = styled.section`
     font-weight: 600;
   }
   h3 {
-    grid-column: 1;
+    grid-column: 1 / -1;
     grid-row: 2;
   }
 `;

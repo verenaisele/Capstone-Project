@@ -29,7 +29,6 @@ export default function Timer({ seconds, onTimerExpired }) {
 }
 
 const TimerWrapper = styled.div`
-  }
   h1 {
     color: var(--white);
     font-size: 14rem;
@@ -42,7 +41,7 @@ const TimerWrapper = styled.div`
     box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
     font-size: var(--fs-200);
     letter-spacing: 0.05rem;
-   
+
     margin-bottom: 40px;
 
     padding: 0.4rem 0.8rem;
