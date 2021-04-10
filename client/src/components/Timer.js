@@ -22,7 +22,7 @@ export default function Timer({ seconds, onTimerExpired }) {
 
   return (
     <TimerWrapper>
-      <button onClick={() => setCountDown(5)}>Start</button>
+      <button onClick={() => setCountDown(3)}>Start</button>
       <h1>{countDown}</h1>
     </TimerWrapper>
   );

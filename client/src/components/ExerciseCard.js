@@ -15,6 +15,7 @@ export default function ExerciseCard({ exercises }) {
     <main>
       <Header>
         <h2>Übung</h2>
+        {/*  <Link to="/Bodyparts"> */}
         <Link to={'/Uebungen_Ueberblick/' + category}>
           <Previous />
         </Link>
